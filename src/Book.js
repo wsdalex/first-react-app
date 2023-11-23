@@ -5,7 +5,7 @@ import Title from "./Title";
 
 const Book = () => {
   return (
-    <article>
+    <article className="book">
       <Image />
       <Title />
       <Author />
