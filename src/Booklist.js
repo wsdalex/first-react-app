@@ -1,6 +1,5 @@
 import React from "react";
 import Book from "./Book";
-import EventExample from "./EventExample";
 
 const books = [
   {
@@ -20,9 +19,8 @@ const books = [
 const Booklist = () => {
   return (
     <section className="booklist">
-      <EventExample />
       {books.map((book) => {
-        return <Book {...book} book={book} />;
+        return <Book {...book} key={book.id} />;
       })}
     </section>
   );
