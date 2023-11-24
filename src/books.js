@@ -1,14 +1,24 @@
+import img1 from "./images/img1.jpg";
+import img2 from "./images/img2.jpg";
+import img3 from "./images/img3.jpg";
+
 export const books = [
   {
-    img: "./images/Guinness.jpg",
+    img: img1,
     title: "Guinness World Records 2024",
     author: "Guinness World Records",
     id: 1,
   },
   {
-    img: "https://images-eu.ssl-images-amazon.com/images/I/71fk5JFlZzL._AC_UL900_SR900,600_.jpg",
-    title: "Dear Santa",
-    author: "Rod Campbell",
+    img: img2,
+    title: "Squirrel's Snowman",
+    author: "Julia Donaldson",
     id: 2,
+  },
+  {
+    img: img3,
+    title: "Bored of Lunch",
+    author: "Nathan Anthony",
+    id: 3,
   },
 ];
